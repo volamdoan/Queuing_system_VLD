@@ -48,7 +48,7 @@
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li><a class="dropdown-item" href="/role">Quản lý vai trò</a></li>
                 <li><a class="dropdown-item" href="/account">Quản lý tài khoản</a></li>
-                <li><a class="dropdown-item" href="#">Nhật người dùng</a></li>
+                <li><a class="dropdown-item" href="#">Nhật kí hoạt động</a></li>
             </ul>
         </li>
         @guest

@@ -1,11 +1,16 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <title>@yield('title')</title>
+
+
     <!-- Fonts -->
     <link rel="stylesheet" href="{{ asset('css/styles.css')}}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
@@ -68,6 +73,10 @@
             border-color:#FF9138;
         }
     </style>
+    <script>
+        alertify.notify('{{Session::get('success')}}', 'custom', 2, function () { console.log('dismissed'); });
+        alertify.set('notifier', 'position', 'bottom-right');
+    </script>
     @endif
     @yield('content')
 </body>

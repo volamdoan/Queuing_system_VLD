@@ -1069,7 +1069,7 @@ table td {
   position: absolute;
   width: 80px;
   height: 94px;
-  left: 1341px;
+  left: 1175px;
   top: 160px;
 }
 
@@ -1164,11 +1164,12 @@ table td {
 
 .edit-device {
   position: absolute;
-  right: 0px;
-  top: 117px;
+  right: 30px;
+  top: 120px;
 }
 
 .edit-device img {
+  border-radius: 16px;
   width: 80px;
   height: 94px;
 }
@@ -1195,7 +1196,7 @@ table td {
 
 .square {
   position: absolute;
-  width: 20px;
+  width: 25px;
   height: 20px;
   left: -6px;
   top: 16px;
@@ -1203,7 +1204,9 @@ table td {
   border: 1.5px solid #4277FF;
   border-radius: 4px;
 }
-
+.list-group-item{
+  width: 321px;
+}
 .list-group-item-service {
   position: relative;
   border: none !important;
@@ -1211,24 +1214,24 @@ table td {
   margin-top: 12px;
   background-color: rgba(255, 255, 255, 0) !important;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  margin-left: -7px;
+  margin-left: 4px;
 }
 
 .form-control-service1,
 .form-control-service2 {
-  max-width: 61px;
+  max-width: 50px;
 }
 
 .form-control-service1 {
   position: absolute;
   top: 2px;
-  left: 165px;
+  left: 160px;
 }
 
 .form-control-service2 {
   position: absolute;
   top: 2px;
-  left: 290px;
+  left: 260px;
 }
 
 .active {
@@ -1275,7 +1278,7 @@ table td {
 .back-device {
   position: absolute;
   top: 84px;
-  right: -181px;
+  right: -140px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -1283,7 +1286,7 @@ table td {
   position: absolute;
   top: -19px;
   /* left: 907px; */
-  right: -181px;
+  right: -140px;
 }
 
 .number {
@@ -1295,6 +1298,13 @@ table td {
   border-radius: 12px;
   width: calc(1048px -200px);
   padding-right: 65px;
+}
+.add-number{
+  position: absolute;
+  width: 80px;
+  height: 94px;
+  left: 1170px;
+  top: 160px;
 }
 
 .number .form-control {
@@ -1385,4 +1395,11 @@ table td {
 }
 .form-group-account{
   padding-top: 10px;
+}
+.add-role{
+  position: absolute;
+  width: 80px;
+  height: 94px;
+  left: 1165px;
+  top: 160px;
 }
