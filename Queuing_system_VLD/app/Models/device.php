@@ -11,19 +11,15 @@ class device extends Model
     public $timestamps = false;
     protected $table = 'device';
     protected $fillable = [
-
-        'device_code',
-        'device_category',
-        'device_name',
-        'device_username',
         'device_id',
-        'device_password',
-        'device_status',
-        'device_conection',
-        'device_title',    
+        'device_Code',
+        'device_Category',
+        'device_Name',
+        'device_Username',
+        'device_Password',
+        'device_Status',
+        'device_Conection',
+        'device_Title',    
         
-
-        
-       
     ];
 }

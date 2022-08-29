@@ -18,7 +18,8 @@ class DeviceController extends Controller
             ->select('*')
             ->where('device_name','like','%'.$key.'%')
             ->paginate(7);
-        }else{$data= device::paginate(7);}
+        }else
+        {$data= device::paginate(7);}
       
         return view('device',compact('data'));
     }

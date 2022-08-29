@@ -130,7 +130,7 @@ Quản lý cấp số
                                 <button type="submit" name="submit"><i class='bx bx-search'></i></button>
                             </form>
                         </div>
-                    </div>
+                    </div>  <q></q>
                     <div class="add-device" style="top: 160px;">
                         <a href="/add-account">
                             <img src="/images/addaccount.png" alt="">

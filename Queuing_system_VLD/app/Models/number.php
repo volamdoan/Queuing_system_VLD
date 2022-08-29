@@ -12,10 +12,10 @@ class number extends Model
     protected $fillable = [
 
         'number',
-        'number_name',
-        'number_service',
-        'number_status',
-        'number_source',
+        'number_Name',
+        'number_Service',
+        'number_Status',
+        'number_Source',
         'created_at', 
         'updated_at', 
     ];

@@ -11,11 +11,11 @@ class role extends Model
     protected $table = 'role';
     protected $fillable = [
 
-        'role_name',
-        'role_qty',
-        'role_content',
-        'role_status',
-        'permissions',
+        'role_Name',
+        'role_Service',
+        'role_Content',
+        'role_Status',
+        'Permissions',
         'created_at', 
         'updated_at', 
         
